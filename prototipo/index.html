@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartMoney</title>
+<link rel="stylesheet" href="/styles/bootstrap.css">
+<link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+    <!-- Sidebar -->
+    <nav class="col-md-3 col-lg-2 sidebar">
+        <div class=" mb-4">
+        <img src="/images/logo.png" alt="Logo SmartMoney" height="110" class="mb-2">
+        <div><a href="#"> <img src="/images/olivia.png" alt="" height="50"> <strong>Bia</strong><br></div></a>
+    </div>
+        <a href="#"> <img src="/images/home.png" alt="" height="27"> Dashboard</a>
+        <a href="#"> <img src="/images/transacoes.png" alt="" height="20"> Transações</a>
+        <a href="#"> <img src="/images/orcamento.png" alt="" height="27"> Orçamento</a>
+        <a href="#"> <img src="/images/metas.png" alt="" height="27"> Metas</a>
+        <a href="#"> <img src="/images/relatorio.png" alt="" height="27"> Relatórios</a>
+        <a href="#"> <img src="/images/config.png" alt="" height="27"> Configurações</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="col-md-9 col-lg-10 px-4 py-4">
+        <h1 class="mb-4">Dashboard</h1>
+
+        <div class="row mb-5">
+            <div class="col-md-6 mb-3">
+            <div class="card-summary">
+                <h6>Renda Total</h6>
+                <h3 class="text-success">R$ 12.350,00</h3>
+            </div>
+            </div>
+            <div class="col-md-6 mb-3">
+            <div class="card-summary">
+                <h6>Gasto Esse Mês</h6>
+                <h3 class="text-danger">R$ 1.350,00</h3>
+            </div>
+            </div>
+        </div>
+
+    
+    <div class="mb-5">
+        <h2>Transações Recentes</h2>
+        <table class="table table-bordered table-hover mt-3">
+        <thead class="table-light">
+            <tr>
+                <th>Data</th>
+                <th>Descrição</th>
+                <th>Categoria</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20/05/2025</td>
+                <td>Compras da semana</td>
+                <td><span class="category-tag">Mercado</span></td>
+                <td class="text-danger">-150.00</td>
+            </tr>
+            <tr>
+                <td>19/05/2025</td>
+                <td>Metade do salário</td>
+                <td><span class="category-tag">Receita</span></td>
+                <td class="text-success">+2,500.00</td>
+            </tr>
+            <tr>
+                <td>17/05/2025</td>
+                <td>Jantar em restaurante italiano</td>
+                <td><span class="category-tag">Refeição</span></td>
+                <td class="text-danger">-75.00</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+    <div class="mb-5">
+        <h2>Resumo do Orçamento Mensal</h2>
+
+        <p class="mt-4">Mercado</p>
+        <div class="progress mb-2"><div class="progress-bar" style="width: 75%"></div></div>
+        <small>R$750 / R$1000</small>
+
+        <p class="mt-4">Refeição</p>
+        <div class="progress mb-2"><div class="progress-bar" style="width: 50%"></div></div>
+        <small>R$250 / R$500</small>
+
+        <p class="mt-4">Entretenimento</p>
+        <div class="progress mb-2"><div class="progress-bar" style="width: 25%"></div></div>
+        <small>R$125 / R$500</small>
+    </div>
+
+    
+    <div class="mb-5">
+        <h2>Metas Financeiras</h2>
+
+        <p class="mt-4">Casa própria</p>
+        <div class="progress mb-2"><div class="progress-bar" style="width: 50%"></div></div>
+        <small>R$5.000 / R$10.000</small>
+
+        <p class="mt-4">Quitar cartão de crédito</p>
+        <div class="progress mb-2"><div class="progress-bar" style="width: 25%"></div></div>
+        <small>R$2.500 / R$10.000</small>
+    </div>
+    </main>
+</div>
+</div>
+
+</body>
+</html>

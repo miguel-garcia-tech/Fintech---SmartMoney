@@ -1,0 +1,51 @@
+body {
+        background-color: #f8f9fa;
+        color: #012648;
+        }
+
+        h1, h2, h3, h4, h5 {
+        color: #012648;
+        }
+
+        .card-summary {
+            background-color: #f1f3f5;
+            border: none;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .progress-bar {
+        background-color: #012648;
+        }
+
+        .category-tag {
+            background-color: #e9ecef;
+            color: #012648;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .sidebar {
+            background-color: white;
+            min-height: 100vh;
+            padding-top: 2rem;
+            border-right: 1px solid #dee2e6;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #012648;
+            display: block;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+
+        .sidebar a:hover {
+            background-color: #f1f3f5;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+        }
